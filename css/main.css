@@ -86,15 +86,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* General rules */
   a {
     color: #000;
     text-decoration: none;
   }
+
+  /* Backgrand color */
    .bg {
     background-color: #f35b09;
   }
   .py-5 {
     background-color: #e5eef3;
+  }
+/* Responsive logos */
+  img {
+    max-width: 100%;
+    width: 5rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
 
