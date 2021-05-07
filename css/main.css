@@ -100,11 +100,31 @@ textarea {
     background-color: #e5eef3;
   }
 /* Responsive logos */
-  img {
+  footer img {
     max-width: 100%;
-    width: 5rem;
+    height: auto;
     padding-top: 1em;
     padding-bottom: 1em;
+  }
+  img {
+    width: 20vw;
+    height: 30vh;
+  }
+
+  /* titre de formation */
+  .cercle {
+    /* background-image: url("web.jpg"); */
+    background-color: black;
+    color:orange;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3.5em;
+   
+    background-size: cover;
+  
+
   }
 
 
