@@ -99,16 +99,15 @@ textarea {
   .py-5 {
     background-color: #e5eef3;
   }
-/* Responsive logos */
-  footer img {
+
+/* footer / Responsive logo */
+  .logo {
+    width: 5vw;
+    height: 5vh;
     max-width: 100%;
     height: auto;
     padding-top: 1em;
     padding-bottom: 1em;
-  }
-  img {
-    width: 5vw;
-    height: 5vh;
   }
 
   /* titre de formation */
@@ -121,7 +120,6 @@ textarea {
     border-radius: 100%;
     text-align: center;
     padding-top: 3.5em;
-   
     background-size: cover;
   }
   
