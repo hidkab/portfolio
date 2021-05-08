@@ -107,8 +107,8 @@ textarea {
     padding-bottom: 1em;
   }
   img {
-    width: 20vw;
-    height: 30vh;
+    width: 5vw;
+    height: 5vh;
   }
 
   /* titre de formation */
@@ -123,9 +123,12 @@ textarea {
     padding-top: 3.5em;
    
     background-size: cover;
-  
-
   }
+  
+  /* page contact */
+ 
+
+
 
 
 
