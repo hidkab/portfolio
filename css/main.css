@@ -123,7 +123,10 @@ textarea {
     background-size: cover;
   }
   
-  /* page contact */
+  /* About page */
+  #text {
+    text-align: justify;
+  }
  
 
 
