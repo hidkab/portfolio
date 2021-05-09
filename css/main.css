@@ -127,10 +127,17 @@ textarea {
   #text {
     text-align: justify;
   }
-  /* skills */
+  /* skills page */
   .card-img-top {
-    width: 5vw;
+    width: 15vw;
+    height: 15vh;
   }
+
+  /* Projects page */
+  .figure-img {
+    width: 25vw;
+  }
+   
  
 
 
