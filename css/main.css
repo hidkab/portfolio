@@ -127,6 +127,10 @@ textarea {
   #text {
     text-align: justify;
   }
+  /* skills */
+  .card-img-top {
+    width: 5vw;
+  }
  
 
 
