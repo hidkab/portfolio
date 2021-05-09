@@ -86,6 +86,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* General rules */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Backgrand color */
+   .bg {
+    background-color: #f35b09;
+  }
+  .py-5 {
+    background-color: #e5eef3;
+  }
+
+/* footer / Responsive logo */
+  .logo {
+    width: 5vw;
+    height: 5vh;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  /* titre de formation */
+  .cercle {
+    /* background-image: url("web.jpg"); */
+    background-color: black;
+    color:orange;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3.5em;
+    background-size: cover;
+  }
+  
+  /* About page */
+  #text {
+    text-align: justify;
+  }
+  /* skills page */
+  .card-img-top {
+    width: 15vw;
+    height: 15vh;
+  }
+
+  /* Projects page */
+  .figure-img {
+    width: 25vw;
+  }
+   
+ 
+
+
+
+
 
 /* ==========================================================================
    Helper classes
