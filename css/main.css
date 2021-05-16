@@ -93,7 +93,7 @@ textarea {
   }
 
   /* Backgrand color */
-   .bg {
+   .bg, .card-header  {
     background-color: #f35b09;
   }
   .py-5 {
@@ -110,23 +110,46 @@ textarea {
     padding-bottom: 1em;
   }
 
-  /* titre de formation */
-  .cercle {
-    /* background-image: url("web.jpg"); */
-    background-color: black;
-    color:orange;
-    width: 10em;
-    height: 10em;
-    border-radius: 100%;
-    text-align: center;
-    padding-top: 3.5em;
-    background-size: cover;
-  }
   
+
+   .title {
+     
+     background-color: rgba(158, 158, 204, 0.7);
+     border: black;
+     box-sizing: 25em;
+
+   }
+   /* accueil */
+   .animation {
+    animation-duration: 2s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+   
   /* About page */
   #text {
     text-align: justify;
+    font-size: 1.2em;
   }
+  /* photo profil */
+  .photo_de_profil {
+   box-shadow: 0 0.2em 0.8em 0 grey ;
+   border-radius: 2%;
+   
+   
+  }
+
   /* skills page */
   .card-img-top {
     width: 15vw;
@@ -137,8 +160,7 @@ textarea {
   .figure-img {
     width: 25vw;
   }
-   
- 
+
 
 
 
