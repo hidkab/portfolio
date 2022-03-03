@@ -86,40 +86,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* .....................root.................... */
+   /* :root {
+
+   } */
+
    /* General rules */
+   
+
+   h1, h2, h3 ,h4, h5,  h6 {
+    font-family: 'Bitter', serif;
+   }
+   body, span, p, input, a {
+     font-family: 'Montserrat', sans-serif;
+   }
   a {
-    color: #000;
     text-decoration: none;
   }
+  .btn {
+    background-color: #384454;
+    color: #fff;
+  }
 
+
+  /* ......................Header............................. */
+  
   /* Backgrand color */
    .bg, .card-header  {
-    background-color: #f35b09;
+    background-color: #384454;
   }
-  .py-5 {
-    background-color: #e5eef3;
+  .bg-header {
+    background-color: #D4D3DC;
+  }
+  .bg-header {
+    background-color: #999aaf;
+  }
+  .title {
+    font-weight: bold;
+    color: #000;
   }
 
-/* footer / Responsive logo */
-  .logo {
-    width: 5vw;
-    height: 5vh;
-    max-width: 100%;
+  .profile-picture {
+    filter: brightness(1.35);
+  }
+  .photo-about {
+    border-radius: 5%;
+    width: 100%;
     height: auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
+
   }
 
+  /* ...................nav............... */
   
-
-   .title {
-     
-     background-color: rgba(158, 158, 204, 0.7);
-     border: black;
-     box-sizing: 25em;
-
+  nav a:hover {
+    background-color: #655ca8;
+    border-radius: 1.2rem;
+  }
+   /* .................home page................. */
+   .bg-home {
+     background-color: rgb(243, 235, 225, 0.5);
    }
-   /* accueil */
    .animation {
     animation-duration: 2s;
     animation-name: glissement;
@@ -130,36 +156,61 @@ textarea {
       margin-left: 100%;
       width: 300%;
     }
-  
     to {
       margin-left: 0%;
       width: 100%;
     }
   }
-   
-  /* About page */
-  #text {
-    text-align: justify;
-    font-size: 1.2em;
+  .separator {
+    background: #000;
+    width: 10%;
+    height: 1vh;
+    margin: auto;
+    border-radius: 5%;
   }
-  /* photo profil */
-  .photo_de_profil {
-   box-shadow: 0 0.2em 0.8em 0 grey ;
-   border-radius: 2%;
    
-   
-  }
 
-  /* skills page */
+  /* ....................skills page.................... */
   .card-img-top {
     width: 15vw;
     height: 15vh;
   }
+  
 
   /* Projects page */
-  .figure-img {
-    width: 25vw;
+  
+  .card {
+    width: 22rem;
+    background: rgb(218, 213, 213, 0.8);
+    animation: mymove 5s;
   }
+
+  @keyframes mymove {
+    from {background-color: rgb(70, 69, 69);}
+    to {background-color: rgb(218, 213, 213, 0.8);}
+  }
+
+  /* ............footer........................................... */
+  i {
+    color: #fff;
+    font-size: 0.9rem;
+    padding-top: 0.6rem;
+  }
+  footer a:hover {
+    color: #655ca8;
+  }
+  i:hover {
+    color: #655ca8;
+  }
+  footer, span {
+    color: #fff;
+  }
+  .btn-about:hover {
+    color: #b8b5d4;
+  }
+
+  
+
 
 
 
@@ -339,4 +390,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+
+
 
