@@ -2,7 +2,7 @@
 
 
 // add color to button on hover
-document.getElementById("btn-projects").onmouseover = function() 
+document.getElementById("btn-projects").onmouseover = function()
 {
   this.style.backgroundColor = "#999aaf";
   this.style.color = "white";
@@ -10,4 +10,3 @@ document.getElementById("btn-projects").onmouseover = function()
   this.style.boxShadow = "10px 15px 20px #999aaf";
   
 }
-
