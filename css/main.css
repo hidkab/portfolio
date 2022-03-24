@@ -93,7 +93,6 @@ textarea {
 
    /* General rules */
    
-
    h1, h2, h3 ,h4, h5,  h6 {
     font-family: 'Bitter', serif;
    }
@@ -138,6 +137,7 @@ textarea {
   }
    
   /* ....footer.... */
+
   i {
     color: #fff;
     font-size: 0.9rem;
@@ -157,6 +157,7 @@ textarea {
   }
 
   /* .................Home page................. */
+
   .bg-home {
     background-color: rgba(223, 208, 191, 0.5);
   }
@@ -184,6 +185,7 @@ textarea {
  }
 
   /* ....................Skills page.................... */
+
   .card-img-top {
     width: 15vw;
     height: 15vh;
@@ -195,7 +197,6 @@ textarea {
    margin: auto;
    border-radius: 5%;
   }
-  
 
   /* ....................Projects page................... */
   
@@ -227,7 +228,6 @@ textarea {
     background-color: #e4e3ee;
   }
   .bg-text {
-    /* background-color: #454f5d; */
     border-radius: 1.2rem;
     color: black;
     box-shadow: 0.1rem 0.2rem 0.2rem 0rem #404244;
@@ -239,9 +239,7 @@ textarea {
   }
 
   /* ...................Skills page........................ */
-  /* .color {
-    background-color: #000;
-  } */
+
   .bg-skills {
     background-color: #999;
   } 
@@ -255,7 +253,9 @@ textarea {
   /* phone media < 391px */
 
   @media only screen and (max-width: 391px) {
+
     /* about */
+    
     .pb {
       padding-bottom: 3rem;
     }
@@ -269,14 +269,14 @@ textarea {
     .container-photo {
       max-width: 100%;
     }
-
-    /* projects */
     
   }
 
 /* phone media < 392px */
 @media only screen and (min-width: 392px) {
+
     /* about */
+
     .pb {
       padding-bottom: 3rem;
     }
