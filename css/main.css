@@ -106,6 +106,10 @@ textarea {
     background-color: #384454;
     color: #fff;
   }
+  .scale-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0.5rem 0.5rem 0 rgb(104, 98, 98);
+  }
 
 
   /* .....Header......*/
@@ -243,12 +247,11 @@ textarea {
   .bg-skills {
     background-color: #999;
   } 
-          
   .content {
     max-width: 80%;
     display: flex;
-    
   }
+
 
   /* phone media < 391px */
 
