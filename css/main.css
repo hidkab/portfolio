@@ -86,10 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /* .....................root.................... */
-   /* :root {
-
-   } */
 
    /* General rules */
    
@@ -240,6 +236,10 @@ textarea {
   }
   .container-photo {
     max-width: 45%;
+  }
+  .diploma-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
   }
 
   /* ...................Skills page........................ */
